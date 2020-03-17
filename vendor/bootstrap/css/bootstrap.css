@@ -1666,7 +1666,7 @@ pre code {
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(93, 202, 226, 0.2);
+    background-color: #e0ebf5;
 }
 
 .table-hover tbody tr:hover {
@@ -2572,12 +2572,14 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #00A29C;
     border-color: #00A29C;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .btn-aqua:hover {
     color: #FDDD00;
     background-color: #009690;
     border-color: #009690;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .btn-primary {

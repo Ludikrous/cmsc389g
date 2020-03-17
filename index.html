@@ -26,7 +26,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: black !important">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-gogradient">
         <div class="container">
             <a class="navbar-brand" href="#">CMSC 389G</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,13 +38,10 @@
                         <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="/projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/about.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -52,11 +49,11 @@
     </nav>
 
     <!-- Header -->
-    <header class="bg-gogradient py-4 mb-5" style="background-color: linear-gradient(-90deg, red, yellow);">
+    <header class="bg-gogradient pb-3 mb-5">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-lg-12">
-                    <h1 class="display-4 text-white mt-5 mb-2" style="color: #FDDD00 !important;">Introduction to <span style="font-weight:bold">Go</span></h1>
+                    <h1 class="display-4 text-white mt-4 mb-2" style="color: #FDDD00 !important;">Introduction to <span style="font-weight:bold">Go</span></h1>
                 </div>
             </div>
         </div>
@@ -81,30 +78,6 @@
                 <a class="btn btn-aqua btn-lg btn-block" href="#"><i class="fab fa-github mr-4"></i> Github</a><br>
                 <a class="btn btn-aqua btn-lg btn-block" href="#"><i class="fas fa-pizza-slice mr-4"></i> Piazza</a><br>
                 <a class="btn btn-aqua btn-lg btn-block" href="#"><i class="far fa-newspaper mr-4"></i> Syllabus</a>
-            </div>
-        </div>
-        <!-- /.row -->
-        <div class="row my-5">
-            <div class="col-md-12">
-                <h2 style="font-weight: bolder;">Projects</h2>
-                <hr>
-                <div class="card border-left">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-3 my-auto">
-                                <h4 class="card-title my-auto">Project 1</h4>
-                            </div>
-                            <div class="col-md-6 my-auto">
-                                <p class="card-text my-3">Go Basics</p>
-                            </div>
-                            <div class="col-md-3" style="text-align: right;">
-                                <a class="btn btn-aqua btn-lg" href="#"><i class="fab fa-github mr-2"></i> Github</a><br>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
             </div>
         </div>
         <!-- /.row -->
@@ -141,6 +114,42 @@
                                 <td>3</td>
                                 <td>Interfaces and Maps</td>
                                 <td><a class="btn btn-aqua btn-sm" href="#">Google Drive</a><br></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row my-5">
+            <div class="col-md-12">
+                <h2 style="font-weight: bolder;">Extra Resources</h2>
+                <hr>
+                <div class="card">
+                    <table class="table table-striped table-borderless m-0">
+                        <thead class="bg-gopher" style="background-color: #00A29C; color: white">
+                            <tr>
+                                <th scope="col">Resource</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Golang Website</th>
+                                <td>This is the official Go website. You can find installations, tutorials, and more here.</td>
+                                <td><a class="btn btn-aqua btn-sm" href="https://golang.org/">golang.org</a><br></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Go Playground</th>
+                                <td>Like repl.it, but for Go!</td>
+                                <td><a class="btn btn-aqua btn-sm" href="https://example.com/">golang.org</a><br></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Go by Example</th>
+                                <td>A really good Go tutorial. Lots of our material is based off of this, so it's basically our textbook.</td>
+                                <td><a class="btn btn-aqua btn-sm" href="https://example.com/">golang.org</a><br></td>
                             </tr>
                         </tbody>
                     </table>
